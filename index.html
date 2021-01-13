@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kewen Zhao </title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <p>Kewen Zhao's Homepage</p>
+    </header>
+    <section>
+      <h1>US</h1>
+      <h2>California</h2>
+      <h3>San Diego</h3>
+    </section>
+
+    <ul>
+      <li>Major: CS</li>
+      <li>Sex: Male</li>
+      <li>&nbsp;Hobbies
+        <ol>
+          <li><span style="color: #333333;"><b>Table tennis</b></span></li>
+          <li><span style="color: #808000;">
+              <i>Machine Learning
+                <code>
+                  <pre>
+                  import tensorflow as tf;
+                  tf.doSomething();
+                </pre>
+                </code>
+              </i></span>
+          </li>
+          <li><span style="color: #0000ff;"><em>Image processing</em></span></li>
+          <li>
+            <figure>
+              <picture>
+                <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltcfa4652c8d383f56/5e21837f63d1b6503160d39b/Home-page.jpg" alt="lol" width="202" height="106" />
+              </picture>
+              <figcaption>Demacia!</figcaption>
+            </figure>
+          </li>
+        </ol>
+      </li>
+    </ul>
+    <hr>
+    <table>
+      <caption>My rank of languages</caption>
+      <colgroup>
+        <col style="background-color:red">
+      </colgroup>
+      <tr>
+        <th>Rank</th>
+        <th>Favorate languages</th>
+      </tr>
+      <tr>
+        <td><strong>#1</strong></td>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>#2</td>
+        <td>Cpp</td>
+      </tr>
+      <tr>
+        <td>#3</td>
+        <td>Java</td>
+      </tr>
+      <tr>
+        <td>#4</td>
+        <td>???</td>
+      </tr>
+    </table>
+    <div class="Other element">
+      <aside class="random stuff">
+        Python is the best language!
+      </aside>
+    </div>
+  </main>
+
+
+  <div class="Chinese Flag">
+    <svg height="210" width="200">
+      <polygon points="100,10 40,200 190,80 10,80 160,200" style="fill:red;stroke:yellow;stroke-width:5;fill-rule:nonzero;" />
+    </svg>
+    <svg height="100" width="100">
+      <polygon points="50,5 20,99 95,39 5,39 80,98" style="fill:red;stroke:yellow;stroke-width:5;fill-rule:nonzero;" />
+    </svg>
+    <br />
+    <svg height="100" width="100">
+      <polygon points="50,5 20,99 95,39 5,39 80,98" style="fill:red;stroke:yellow;stroke-width:5;fill-rule:nonzero;" />
+    </svg>
+    <svg height="100" width="100">
+      <polygon points="50,5 20,99 95,39 5,39 80,98" style="fill:red;stroke:yellow;stroke-width:5;fill-rule:nonzero;" />
+    </svg>
+    <svg height="100" width="100">
+      <polygon points="50,5 20,99 95,39 5,39 80,98" style="fill:red;stroke:yellow;stroke-width:5;fill-rule:nonzero;" />
+    </svg>
+  </div>
+  <details>
+    <summary>Which country this flag represents?</summary>
+    <p>China~</p>
+  </details>
+  <form class="" action="index.html" method="post">
+    <label for="food">Your favorate programming language</label>
+    <select class="" name="">
+      <optgroup label="good ones">
+        <option value="Python">Python</option>
+      </optgroup>
+      <optgroup label="bad ones">
+        <option value="PHP">PHP</option>
+      </optgroup>
+    </select>
+
+    <fieldset>
+      <legend>Favorate IDE</legend>
+      <label>Type it</label>
+      <input type="text" name="ide">
+      <datalist class="ides">
+        <option value="">CLion</option>
+        <option value="">Eclipse</option>
+        <option value="">Vim</option>
+        <option value="">Notepad</option>
+      </datalist>
+      <label> Atom? </label>
+      <input type="checkbox" name="">
+      <input type="number" placeholder="number"><br><br>
+      <input type="password" placeholder="password"><br>
+      <input type="radio"><br>
+      0 <input type="range"> 100<br>
+      <input type="image"><br>
+      <input type="reset"><br>
+      <input type="search"><br>
+      <input type="tel" placeholder="tel:"><br>
+      <input type="month"><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+    <textarea name="comment" rows="8" cols="80" placeholder="Feedback / comments?"></textarea>
+
+  </form>
+  <footer>
+    <button id="useless button" type="button" onclick="showContent()">a useless button</button>
+    <template>
+
+      <p> Told you it's useless</p>
+    </template>
+    <script>
+      function showContent() {
+        var temp = document.getElementsByTagName("template")[0];
+        var clon = temp.content.cloneNode(true);
+        document.getElementById("useless button").appendChild(clon);
+      }
+    </script>
+
+    <aside class="Media">
+      <audio controls>
+        <source src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3" type="audio/mpeg">
+      </audio>
+      <video width="320" height="240" controls>
+        <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video src="https://www.bilibili.com/video/BV1r5411n7Rt">
+        Your browser does not support the video tag.
+      </video>
+      <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+      <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(0, 0, 80, 10);
+        ctx.fillRect(100, 0, 80, 10)
+        ctx.fillRect(50, 30, 100, 10)
+      </script>
+    </aside>
+
+    <p>Author: Kewen Zhao</p>
+    <p><a href="github.com/hage1005">Github Page</a></p>
+    <nav>
+      | <a href="github.com/hage1005">Github Page</a>|
+    </nav>
+    <iframe src="ithub.com/hage1005" width="50" height="50"></iframe>
+  </footer>
+</body>
+
+</html>
