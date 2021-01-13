@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Kewen Zhao </title>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -15,6 +16,10 @@
       <h1>US</h1>
       <h2>California</h2>
       <h3>San Diego</h3>
+      <pre>
+      9450 GIlman Drive
+      La Jolla, CA
+      </pre>
     </section>
 
     <ul>
@@ -25,12 +30,10 @@
           <li><span style="color: #333333;"><b>Table tennis</b></span></li>
           <li><span style="color: #808000;">
               <i>Machine Learning
-                <code>
-                  <pre>
-                  import tensorflow as tf;
-                  tf.doSomething();
-                </pre>
-                </code>
+                  <code>
+                    import tensorflow as tf;
+                    tf.doSomething();
+                  </code>
               </i></span>
           </li>
           <li><span style="color: #0000ff;"><em>Image processing</em></span></li>
@@ -50,27 +53,23 @@
       <caption>My rank of languages</caption>
       <colgroup>
         <col style="background-color:red">
+        <col style="background-color:blue">
       </colgroup>
       <tr>
         <th>Rank</th>
-        <th>Favorate languages</th>
-      </tr>
+        <th>Favorate languages</th></tr>
       <tr>
         <td><strong>#1</strong></td>
-        <td>Python</td>
-      </tr>
+        <td>Python</td></tr>
       <tr>
         <td>#2</td>
-        <td>Cpp</td>
-      </tr>
+        <td>Cpp</td></tr>
       <tr>
         <td>#3</td>
-        <td>Java</td>
-      </tr>
+        <td>Java</td></tr>
       <tr>
         <td>#4</td>
-        <td>???</td>
-      </tr>
+        <td>???</td></tr>
     </table>
     <div class="Other element">
       <aside class="random stuff">
@@ -103,8 +102,8 @@
     <p>China~</p>
   </details>
   <form class="" action="index.html" method="post">
-    <label for="food">Your favorate programming language</label>
-    <select class="" name="">
+    <label>Your favorate programming language</label>
+    <select class="" >
       <optgroup label="good ones">
         <option value="Python">Python</option>
       </optgroup>
@@ -124,12 +123,12 @@
         <option value="">Notepad</option>
       </datalist>
       <label> Atom? </label>
-      <input type="checkbox" name="">
+      <input type="checkbox">
       <input type="number" placeholder="number"><br><br>
       <input type="password" placeholder="password"><br>
       <input type="radio"><br>
       0 <input type="range"> 100<br>
-      <input type="image"><br>
+      <input type="image" alt="Useless"><br>
       <input type="reset"><br>
       <input type="search"><br>
       <input type="tel" placeholder="tel:"><br>
@@ -140,7 +139,7 @@
 
   </form>
   <footer>
-    <button id="useless button" type="button" onclick="showContent()">a useless button</button>
+    <button id="useless_button" type="button" onclick="showContent()">a useless button</button>
     <template>
 
       <p> Told you it's useless</p>
@@ -149,7 +148,7 @@
       function showContent() {
         var temp = document.getElementsByTagName("template")[0];
         var clon = temp.content.cloneNode(true);
-        document.getElementById("useless button").appendChild(clon);
+        document.getElementById("useless_button").appendChild(clon);
       }
     </script>
 
