@@ -1,3 +1,5 @@
-I did group meeting yesterday
-I will record video today
-I like playing ping pong
+## What did you do yesterday?
+<br>
+## What will you do today?
+<br>
+## What is blocking your progress?
